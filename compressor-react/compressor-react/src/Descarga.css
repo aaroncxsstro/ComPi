@@ -1,0 +1,86 @@
+.descarga {
+  color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Para centrar el botón */
+  margin-top: 60px;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  } 
+}
+
+.button {
+  position: absolute;
+  bottom: -220px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff8934;
+  background-color: #ff8934;
+  overflow: hidden;
+  border-radius: 5px; /* Hace el botón más redondeado */
+}
+
+.button, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  transform: translateX(18px);
+  color: #fff;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.button .button__icon {
+  position: absolute;
+  transform: translateX(104px);
+  height: 100%;
+  width: 39px;
+  background-color: #ffa564;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button .svg {
+  width: 20px;
+  fill: #fff;
+}
+
+.button:hover {
+  background: #ffa564;
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 137px;
+  transform: translateX(0);
+}
+
+.button:active .button__icon {
+  background-color: #ff6a00;
+}
+
+.button:active {
+  border: 1px solid #ff6a00;
+}

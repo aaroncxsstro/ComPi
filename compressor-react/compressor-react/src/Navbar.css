@@ -1,0 +1,50 @@
+/* Navbar.css */
+.navbar-container {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .app-title {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  .navbar {
+    background-color: #1b1b1b;
+    padding: 10px 0;
+    margin: 0; /* Elimina el margen inferior */
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-item .ui-btn {
+    margin: 10px; /* Añade margen para separar los botones del contenedor */
+  }
+  

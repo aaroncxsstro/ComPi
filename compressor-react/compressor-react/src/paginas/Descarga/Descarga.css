@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.descarga {
+  color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1s ease, transform 1s ease;
+  transform: translateY(0);
+}
+
+.button-container.visible {
+  opacity: 1;
+  transform: translateY(20px);
+  position: relative;
+  padding-top: 130px;
+}
+
+.button {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--random-color);
+  background-color: #1b1b1b;
+  overflow: hidden;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  box-shadow: 0 0 10px var(--border-color, var(--random-color));
+}
+
+
+
+.button, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  transform: translateX(30px);
+  color: #fff;
+  font-weight: 600;
+  vertical-align: middle;
+  font-size: larger;
+}
+
+.button .button__icon {
+  position: absolute;
+  transform: translateX(200px);
+  height: 100%;
+  width: 39px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button .svg {
+  width: 20px;
+  fill: #fff;
+}
+
+.button:hover {
+  background: #000000;
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 137px;
+  transform: translateX(50px);
+}
+
+.button:active .button__icon {
+  background-color: #000000;
+}
+
+.button:active {
+  border: 1px solid #000000;
+}
+
+
+
+@media (max-width: 480px) {
+  .button-container.visible {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .button-container.visible {
+    padding-top: 50px;
+  }
+}

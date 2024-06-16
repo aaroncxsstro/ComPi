@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="JavaFX">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../../JavaFX/lib/javafx-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../JavaFX/lib/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../JavaFX/lib/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../JavaFX/lib/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../JavaFX/lib/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../JavaFX/lib/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../JavaFX/lib/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../JavaFX/lib/javafx.web.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../../../../../JavaFX/bin" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../../../JavaFX" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../../../JavaFX" recursive="false" type="SOURCES" />
+  </library>
+</component>

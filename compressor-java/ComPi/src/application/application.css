@@ -1,0 +1,75 @@
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-scroll: hidden;
+}
+
+.hbox-back-button {
+    -fx-padding: 0 0 0 10px; 
+    -fx-width: 10px;
+}
+
+.path-text-field-container {
+    -fx-padding: 0 10px 0 0; 
+}
+
+.path-text-field {
+	-fx-background-color: #3b3b3b;
+	 -fx-text-fill: white;
+}
+
+.hbox-toolbar {
+    -fx-padding: 10 0 0 10; 
+}
+
+.button {
+    -fx-background-color: #3b3b3b; 
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #606060; 
+}
+
+.button:pressed {
+    -fx-background-color: #404040; 
+}
+
+.list-cell {
+    -fx-background-color: transparent; 
+    -fx-text-fill: white;
+}
+
+.list-cell:filled {
+    -fx-text-fill: white; 
+    -fx-border-color: #333; 
+    -fx-border-width: 0 0 1 0; 
+}
+
+.list-cell:selected {
+    -fx-background-color: #333; 
+}
+
+.list-view {
+    -fx-background-color: #1e1e1e; 
+}
+
+.label {
+    -fx-text-fill: white; 
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-background-color: transparent; 
+}
+
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent; 
+}
+
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #3b3b3b; 
+}
+
+.list-view .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #606060;
+}

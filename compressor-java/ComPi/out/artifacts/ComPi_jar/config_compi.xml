@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Usuario\Desktop\tfg-compressor\tfg-compressor\compressor-java\ComPi\out\artifacts\ComPi_jar\ComPi.jar</jar>
+  <outfile>C:\Users\Usuario\Desktop\tfg-compressor\tfg-compressor\compressor-java\ComPi\out\artifacts\ComPi_jar\ComPi.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\Dani\Imagenes dani\ia\compi_icono_negro.ico</icon>
+  <singleInstance>
+    <mutexName>ComPi</mutexName>
+    <windowTitle>ComPi</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>C:\Program Files\Java</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>17</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
